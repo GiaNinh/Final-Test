@@ -1,5 +1,4 @@
 const Array = []
-let i=0;
 function submitForm(event){ 
     event.preventDefault();
     var ele1 = document.getElementById(`num`).value;

@@ -41,6 +41,7 @@ const ShortLink = ({inputValue}) =>{
 
     return(
         <>
+            
             {shortenLink && (
                 <div>
                     <p>{shortenLink}</p>
@@ -52,6 +53,7 @@ const ShortLink = ({inputValue}) =>{
                     </CopyToClipboard>
                 </div>
             )}
+           
         </>
     )
    
